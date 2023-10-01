@@ -1,4 +1,3 @@
-
 all: libcalc test client server serverD
 
 
