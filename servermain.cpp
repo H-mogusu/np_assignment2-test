@@ -20,7 +20,8 @@
 
 #define MAXBUFLEN 1450
 
-//Structure for CLient
+//Structure for 
+
 struct clientId
 {
   char *ip;
