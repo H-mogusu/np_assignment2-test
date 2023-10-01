@@ -87,9 +87,6 @@ printf("Float not found\n");
   return 1;
 }
 
-
-
-
 // Helper function you can use:
 
 char *get_ip_str(const struct sockaddr *sa, char *s, size_t maxlen)
