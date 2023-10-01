@@ -86,7 +86,6 @@ float ffind(int id)
 printf("Float not found\n");
   return 1;
 }
-
 // Helper function you can use:
 
 char *get_ip_str(const struct sockaddr *sa, char *s, size_t maxlen)
@@ -129,6 +128,7 @@ int main(int argc, char *argv[])
 {
 
   struct addrinfo hints, *servinfo, *p;
+  int sockfd;
   int rv;
   float id = 1;
   int k =1;
