@@ -314,7 +314,7 @@ int main(int argc, char *argv[])
         iresult = i1 / i2;
         protocols.arith = htonl(4);
       }
-
+      //print id in order of a operation , the rnadom number of typ float or integer then result
       printf("operation - numbers - result - %s %d %d = %d \n", ptr, i1, i2, iresult);
 
       printf("Prot id is %d\n", ntohl(protocols.id));
